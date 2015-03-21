@@ -1,1 +1,1 @@
-# Developing_Data_Products
+Projects for the Coursera course Developing Data Products
