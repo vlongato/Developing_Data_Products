@@ -5,9 +5,9 @@ shinyUI(pageWithSidebar(
   
   # Application title
   headerPanel("Analysis of Portfolio Performance"),
-  
+   
   # Sidebar with controls to select a stock ticker and time period
-    sidebarPanel(
+    sidebarPanel(h6("(Requires package quantmod, may take a couple of seconds while it is installed)"),
     h4("Portfolio components"),
     selectInput("stock","Choose a Stock Ticker:", 
     # Stock tickers that form the portfolio
